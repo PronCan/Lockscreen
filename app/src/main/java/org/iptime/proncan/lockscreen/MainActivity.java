@@ -84,6 +84,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        todoList = new ArrayList<String>();
+        mAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.todolist_detail, R.id.todoList_text);
+
         tg = (Button) findViewById(R.id.tg);
         kt = (Button) findViewById(R.id.kt);
         fb = (Button) findViewById(R.id.fb);
@@ -92,13 +95,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         sj = (Button) findViewById(R.id.sj);
         photo = (Button) findViewById(R.id.photo);
         add_todoList = (Button) findViewById(R.id.add_todoList);
-
         editText = (EditText) findViewById(R.id.editText);
-
-        todoList = new ArrayList<String>();
-        mAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.todolist_detail, R.id.todoList_text);
         todoListView = (ListView) findViewById(R.id.todoList);
+
+        add_todoList.setOnClickListener(this);
+        mAdapter.notifyDataSetChanged();
+
         todoListView.setAdapter(mAdapter);
         todoListView.setOnItemClickListener(onItemClickListener);
+
     }
 }
