@@ -98,6 +98,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         editText = (EditText) findViewById(R.id.editText);
         todoListView = (ListView) findViewById(R.id.todoList);
 
+        todoList.add("testData");
+        mAdapter.notifyDataSetChanged(); // 갱신
+
         add_todoList.setOnClickListener(this);
         mAdapter.notifyDataSetChanged();
 

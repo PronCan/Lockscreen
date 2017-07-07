@@ -1,0 +1,123 @@
+07-07 07:50:50.368 15779-15779/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-07 07:50:50.369 15779-15779/? D/AndroidRuntime: CheckJNI is ON
+07-07 07:50:50.386 15779-15779/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:50.389 15779-15779/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-07 07:50:50.401 15779-15779/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+07-07 07:50:50.401 15779-15779/? E/android.os.Debug: failed to load memtrack module: -2
+07-07 07:50:50.401 15779-15779/? I/Radio-JNI: register_android_hardware_Radio DONE
+07-07 07:50:50.409 15779-15779/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+                                                   
+                                                   --------- beginning of system
+07-07 07:50:50.413 1641-1653/system_process I/ActivityManager: Force stopping org.iptime.proncan.lockscreen appid=10035 user=0: from pid 15779
+07-07 07:50:50.413 1641-1653/system_process I/ActivityManager: Killing 15614:org.iptime.proncan.lockscreen/u0a35 (adj 0): stop org.iptime.proncan.lockscreen
+07-07 07:50:50.413 1641-1653/system_process D/ActivityManager: cleanUpApplicationRecord -- 15614
+07-07 07:50:50.415 1641-1687/system_process W/InputDispatcher: channel 'b9da087 org.iptime.proncan.lockscreen/org.iptime.proncan.lockscreen.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-07 07:50:50.415 1641-1687/system_process E/InputDispatcher: channel 'b9da087 org.iptime.proncan.lockscreen/org.iptime.proncan.lockscreen.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+07-07 07:50:50.416 1641-1653/system_process W/ActivityManager: Force removing ActivityRecord{e9f56bb u0 org.iptime.proncan.lockscreen/.MainActivity t74}: app died, no saved state
+07-07 07:50:50.417 1641-2219/system_process D/GraphicsStats: Buffer count: 3
+07-07 07:50:50.421 1641-1653/system_process W/InputDispatcher: Attempted to unregister already unregistered input channel 'b9da087 org.iptime.proncan.lockscreen/org.iptime.proncan.lockscreen.MainActivity (server)'
+07-07 07:50:50.422 1641-1653/system_process I/WindowManager: Destroying surface Surface(name=org.iptime.proncan.lockscreen/org.iptime.proncan.lockscreen.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.removeLocked:1449 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2478 com.android.server.wm.WindowManagerService.removeWindowLocked:2436 com.android.server.wm.WindowManagerService.removeWindowLocked:2305 com.android.server.wm.AppWindowToken.removeAllWindows:530 com.android.server.wm.AppWindowToken.removeAppFromTaskLocked:326 
+07-07 07:50:50.423 1641-2219/system_process W/WindowManager: Failed looking up window
+                                                             java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@792e8c6 does not exist
+                                                                 at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9100)
+                                                                 at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9091)
+                                                                 at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1777)
+                                                                 at android.os.BinderProxy.sendDeathNotice(Binder.java:688)
+07-07 07:50:50.423 1641-2219/system_process I/WindowManager: WIN DEATH: null
+07-07 07:50:50.430 15779-15779/? D/AndroidRuntime: Shutting down VM
+07-07 07:50:50.438 1873-1873/com.android.phone D/CarrierSvcBindHelper: No carrier app for: 0
+07-07 07:50:50.625 1732-1732/com.android.inputmethod.latin W/InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+07-07 07:50:50.628 2185-2338/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x99f7ab60: ver 2 0 (tinfo 0x8bc6c0f0)
+07-07 07:50:50.640 1732-2593/com.android.inputmethod.latin D/EGL_emulation: eglMakeCurrent: 0xa8985a80: ver 2 0 (tinfo 0xa89839a0)
+07-07 07:50:50.830 1641-1664/system_process I/WindowManager: Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.destroyOrSaveSurface:2073 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService$H.handleMessage:8079 android.os.Handler.dispatchMessage:102 
+07-07 07:50:51.084 15797-15797/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-07 07:50:51.085 15797-15797/? D/AndroidRuntime: CheckJNI is ON
+07-07 07:50:51.104 15797-15797/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:51.107 15797-15797/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-07 07:50:51.119 15797-15797/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+07-07 07:50:51.119 15797-15797/? E/android.os.Debug: failed to load memtrack module: -2
+07-07 07:50:51.119 15797-15797/? I/Radio-JNI: register_android_hardware_Radio DONE
+07-07 07:50:51.128 2185-2338/com.android.launcher3 W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-07 07:50:51.128 15797-15797/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 07:50:51.158 15797-15797/? I/art: System.exit called, status: 0
+07-07 07:50:51.158 15797-15797/? I/AndroidRuntime: VM exiting with result code 0.
+07-07 07:50:51.536 15824-15824/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-07 07:50:51.539 15824-15824/? D/AndroidRuntime: CheckJNI is ON
+07-07 07:50:51.571 15824-15824/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:51.576 15824-15824/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-07 07:50:51.589 15824-15824/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+07-07 07:50:51.589 15824-15824/? E/android.os.Debug: failed to load memtrack module: -2
+07-07 07:50:51.589 15824-15824/? I/Radio-JNI: register_android_hardware_Radio DONE
+07-07 07:50:51.595 15824-15824/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 07:50:51.604 15824-15824/? I/art: System.exit called, status: 0
+07-07 07:50:51.604 15824-15824/? I/AndroidRuntime: VM exiting with result code 0.
+07-07 07:50:54.074 15836-15836/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-07 07:50:54.076 15836-15836/? D/AndroidRuntime: CheckJNI is ON
+07-07 07:50:54.114 15841-15841/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-07 07:50:54.116 15836-15836/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:54.116 15841-15841/? D/AndroidRuntime: CheckJNI is ON
+07-07 07:50:54.120 15836-15836/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-07 07:50:54.137 15836-15836/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+07-07 07:50:54.137 15836-15836/? E/android.os.Debug: failed to load memtrack module: -2
+07-07 07:50:54.138 15836-15836/? I/Radio-JNI: register_android_hardware_Radio DONE
+07-07 07:50:54.150 15841-15841/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:54.153 15836-15836/? D/AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+07-07 07:50:54.154 15841-15841/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-07 07:50:54.155 15836-15836/? D/AndroidRuntime: Shutting down VM
+07-07 07:50:54.175 15841-15841/? E/memtrack: Couldn't load memtrack module (No such file or directory)
+07-07 07:50:54.175 15841-15841/? E/android.os.Debug: failed to load memtrack module: -2
+07-07 07:50:54.177 15841-15841/? I/Radio-JNI: register_android_hardware_Radio DONE
+07-07 07:50:54.191 15841-15841/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 07:50:54.198 1641-1990/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.iptime.proncan.lockscreen/.MainActivity} from uid 2000 on display 0
+07-07 07:50:54.206 15841-15841/? D/AndroidRuntime: Shutting down VM
+07-07 07:50:54.223 1641-1723/system_process I/ActivityManager: Start proc 15858:org.iptime.proncan.lockscreen/u0a35 for activity org.iptime.proncan.lockscreen/.MainActivity
+07-07 07:50:54.233 15858-15858/? I/art: Not late-enabling -Xcheck:jni (already on)
+07-07 07:50:54.235 15858-15858/? W/art: Unexpected CPU variant for X86 using defaults: x86
+07-07 07:50:54.273 1335-1929/? D/gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+07-07 07:50:54.406 2185-2338/com.android.launcher3 D/EGL_emulation: eglMakeCurrent: 0x99f7ab60: ver 2 0 (tinfo 0x8bc6c0f0)
+07-07 07:50:54.464 15858-15858/org.iptime.proncan.lockscreen W/System: ClassLoader referenced unknown path: /data/app/org.iptime.proncan.lockscreen-1/lib/x86
+07-07 07:50:54.476 15858-15858/org.iptime.proncan.lockscreen I/InstantRun: starting instant run server: is main process
+07-07 07:50:54.603 1335-1352/? E/SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+                                                 
+                                                 [ 07-07 07:50:54.613 15858:15858 D/         ]
+                                                 HostConnection::get() New Host Connection established 0x99f7d500, tid 15858
+                                                 
+                                                 
+                                                 [ 07-07 07:50:54.621 15858:15858 W/         ]
+                                                 Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 
+                                                 
+                                                 [ 07-07 07:50:54.728 15858:15886 D/         ]
+                                                 HostConnection::get() New Host Connection established 0x99f7dc40, tid 15886
+                                                 
+                                                 
+                                                 [ 07-07 07:50:54.759 15858:15886 W/         ]
+                                                 Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 
+07-07 07:50:54.761 15858-15886/org.iptime.proncan.lockscreen I/OpenGLRenderer: Initialized EGL, version 1.4
+07-07 07:50:54.762 15858-15886/org.iptime.proncan.lockscreen D/OpenGLRenderer: Swap behavior 1
+07-07 07:50:54.763 15858-15886/org.iptime.proncan.lockscreen W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-07 07:50:54.763 15858-15886/org.iptime.proncan.lockscreen D/OpenGLRenderer: Swap behavior 0
+07-07 07:50:54.839 15858-15886/org.iptime.proncan.lockscreen D/EGL_emulation: eglCreateContext: 0x994dfa40: maj 2 min 0 rcv 2
+07-07 07:50:54.903 15858-15886/org.iptime.proncan.lockscreen D/EGL_emulation: eglMakeCurrent: 0x994dfa40: ver 2 0 (tinfo 0x994a5870)
+07-07 07:50:54.938 15858-15886/org.iptime.proncan.lockscreen D/EGL_emulation: eglMakeCurrent: 0x994dfa40: ver 2 0 (tinfo 0x994a5870)
+07-07 07:50:55.131 1732-1732/com.android.inputmethod.latin W/InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+07-07 07:50:55.151 1732-1732/com.android.inputmethod.latin I/LatinIME: Starting input. Cursor position = -1,-1
+07-07 07:50:55.152 1732-1732/com.android.inputmethod.latin E/RichInputConnection: Unable to connect to the editor to retrieve text.
+07-07 07:50:55.152 1732-1732/com.android.inputmethod.latin D/RichInputConnection: Will try to retrieve text later.
+07-07 07:50:55.152 1732-1732/com.android.inputmethod.latin I/InputAttributes: InputType.TYPE_NULL is specified
+07-07 07:50:55.183 1641-1664/system_process I/ActivityManager: Displayed org.iptime.proncan.lockscreen/.MainActivity: +972ms
+07-07 07:50:55.224 1641-1652/system_process I/WindowManager: Destroying surface Surface(name=com.android.launcher3/com.android.launcher3.Launcher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.destroyOrSaveSurface:2073 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.AppWindowToken.notifyAppStopped:389 com.android.server.wm.WindowManagerService.notifyAppStopped:4456 com.android.server.am.ActivityStack.activityStoppedLocked:1252 com.android.server.am.ActivityManagerService.activityStopped:6903 
+07-07 07:50:55.245 1732-1732/com.android.inputmethod.latin I/LatinIME: Starting input. Cursor position = 0,0
+07-07 07:50:55.526 1641-1664/system_process I/WindowManager: Destroying surface Surface(name=Starting org.iptime.proncan.lockscreen) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.destroyOrSaveSurface:2073 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+07-07 07:50:55.562 1732-2593/com.android.inputmethod.latin D/EGL_emulation: eglMakeCurrent: 0xa8985a80: ver 2 0 (tinfo 0xa89839a0)
+07-07 07:50:57.085 1732-1732/com.android.inputmethod.latin W/InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+07-07 07:50:57.088 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 3937942 , only wrote 3937680
+07-07 07:50:57.099 1732-2593/com.android.inputmethod.latin D/EGL_emulation: eglMakeCurrent: 0xa8985a80: ver 2 0 (tinfo 0xa89839a0)
+07-07 07:50:57.360 1641-1664/system_process I/WindowManager: Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.destroyOrSaveSurface:2073 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:429 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:232 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:180 com.android.server.wm.WindowManagerService$H.handleMessage:8079 android.os.Handler.dispatchMessage:102 
+07-07 07:50:58.673 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4013781 , only wrote 4013280
+07-07 07:50:58.674 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4013285 , only wrote 4013280
+07-07 07:50:58.712 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4015110 , only wrote 4014000
+07-07 07:50:58.879 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4022024 , only wrote 4021920
+07-07 07:50:58.879 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4021925 , only wrote 4021920
+07-07 07:50:58.897 1392-1424/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4022762 , only wrote 4022640
+07-07 07:51:00.030 1747-1979/com.android.systemui D/EGL_emulation: eglMakeCurrent: 0x8b81f4a0: ver 2 0 (tinfo 0x8b835360)
+07-07 07:51:00.277 1392-1425/? W/audio_hw_generic: Not supplying enough data to HAL, expected position 4153846 , only wrote 4088880
