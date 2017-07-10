@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         todoList = new ArrayList<String>();
-        mAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.todolist_detail, R.id.todoList_text);
+        mAdapter = new ArrayAdapter<String> (getApplicationContext(), R.layout.todolist_detail, R.id.todoList_text, todoList);
 
         tg = (Button) findViewById(R.id.tg);
         kt = (Button) findViewById(R.id.kt);
